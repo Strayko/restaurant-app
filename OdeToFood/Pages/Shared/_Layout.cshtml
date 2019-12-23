@@ -40,7 +40,8 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted" style="position: relative">
+        @RenderSection("footer", required: false)
         <div class="container">
             &copy; 2019 - OdeToFood - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
